@@ -1,3 +1,5 @@
+# Purpose of creating this file is to make sure we keep a record of errors/significant changes that happen during code implementation.
+
 import logging
 import os
 from datetime import datetime

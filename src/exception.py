@@ -1,3 +1,5 @@
+# Purpose of creating this file is to make sure we record and handle exceptions in the right way during code implementation
+
 import sys
 from src.logger import logging
 
