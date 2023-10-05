@@ -1,4 +1,4 @@
-# Purpose of creating this file is to make sure we record and handle exceptions in the right way during code implementation
+# Purpose of creating this file is to make sure we specify the structure and format of errors we come across during code implementation in the right way.
 
 import sys
 from src.logger import logging

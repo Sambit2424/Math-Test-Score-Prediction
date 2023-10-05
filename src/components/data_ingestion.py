@@ -1,6 +1,8 @@
 # Purpose of creating this file is to create a folder structure to store raw,train & test data as well as their file paths.
-# Below code splits raw data into train and test datasets which are stored in specified folder. It also returns..
-# ..their respective file paths which will be used in the next phase of ML lifecycle(data transformation).
+# Below code splits raw data into train and test datasets which are stored in specified folder. It also returns
+# their respective file paths which will be used in the next phase of ML lifecycle(data transformation).
+# This file will also be responsible for initializing objects and ingesting them using classes created in data_transformation.py
+# and model_trainer.py files. Hence, this file will be executed everytime to get the output of functions created in aforementioned files.
 
 
 import os

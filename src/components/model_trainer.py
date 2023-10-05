@@ -1,3 +1,7 @@
+# Purpose of creating this file is to create classes ModelTrainerConfig & ModelTrainer.
+# The ModelTrainerConfig class will be used to specify the name,type of output file and where it will be stored.
+
+
 import os
 import sys
 from dataclasses import dataclass

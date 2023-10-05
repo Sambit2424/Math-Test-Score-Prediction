@@ -1,3 +1,9 @@
+# Purpose of creating this file is to define DataTransformationConfig & DataTransformation classes.
+# The DataTransformationConfig class will be used to specify the name,type of output file and where it will be stored.
+# The DataTransformation class will be used to identify numerical & categorical columns, then create pipelines to 
+# apply missing value imputation, one-hot encoding and standardization to these columns as required and then finally
+# creating the test and train datasets which will be used in the model_trainer.py file.
+
 import os
 import sys
 from dataclasses import dataclass
